@@ -27,10 +27,13 @@ target/
 # system ignore
 .DS_Store
 Thumbs.db
-!/tansunjsondome/src/main/webapp/WEB-INF/lib/qiniu.jar
+
 
 .externalToolBuilders/
 doc/
-pom.xml
-src/
+
 tansunjsondome/
+
+!/src/main/webapp/WEB-INF/lib/qiniu.jar
+/src/test/
+!/doc/
