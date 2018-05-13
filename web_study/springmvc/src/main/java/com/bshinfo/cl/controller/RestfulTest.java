@@ -52,9 +52,7 @@ private BaseDisqualificationTypeServiceI baseDisqualificationTypeServiceI;
 
             attr.put("data-pid",map.get("pid").equals("")?0:map.get("pid")) ;
             attr.put("data-hah","haha") ;
-
-
-
+            attr.put("data-mes","message") ;
 
              map.put("children", map.get("children") .equals("true"));
              map.put("a_attr", attr);
